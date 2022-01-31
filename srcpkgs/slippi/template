@@ -1,18 +1,18 @@
 # Template file for 'slippi'
 pkgname=slippi
-version=2.3.1
+version=2.3.3
 revision=1
 archs="x86_64"
 wrksrc=Ishiiruka-${version}
 build_style=gnu-configure
 hostmakedepends="cmake make pkg-config git gettext"
-makedepends="libevdev-devel libudev-devel qt5-webkit-devel libusb-devel zlib-devel libcurl-devel libX11-devel pulseaudio-devel libXrandr-devel ffmpeg-devel alsa-lib-devel libao-devel libbluetooth-devel libopenal-devel jack-devel SFML-devel MesaLib-devel libva-glx-devel miniupnpc-devel mbedtls-devel mbedtls mbedtls-utils hidapi-devel gtk+3-devel wxWidgets-devel wxWidgets-gtk3-devel fontconfig-devel libsoup-devel qt5-webkit-devel gettext-devel libpng-devel gtest-devel libenet-devel portaudio-devel webkit2gtk-devel libSM-devel"
+makedepends="libevdev-devel libudev-devel qt5-webkit-devel libusb-devel zlib-devel libcurl-devel libX11-devel pulseaudio-devel libXrandr-devel ffmpeg-devel alsa-lib-devel libao-devel libbluetooth-devel libopenal-devel jack-devel SFML-devel MesaLib-devel libva-glx-devel miniupnpc-devel mbedtls-devel mbedtls mbedtls-utils hidapi-devel gtk+3-devel wxWidgets-devel wxWidgets-gtk3-devel fontconfig-devel libsoup-devel qt5-webkit-devel gettext-devel libpng-devel gtest-devel libenet-devel portaudio-devel webkit2gtk-devel libSM-devel libXinerama-devel libXxf86vm-devel"
 short_desc="GameCube and Wii Emulator with rollback netcode"
 maintainer="Sasha Krassovsky <krassovskysasha@gmail.com>"
 license="GPL-2.0-only"
 homepage="https://slippi.gg"
-distfiles="https://github.com/project-slippi/Ishiiruka/archive/refs/tags/v2.3.1.tar.gz"
-checksum="1fd01798c3b18afa79a7f8f75a27f8c7c5d00a3f7bb95dfd17acdb30e0a609a7"
+distfiles="https://github.com/project-slippi/Ishiiruka/archive/refs/tags/v${version}.tar.gz"
+checksum="58e23315781f3217c2b408364d3b6e1932a930c4c2e53d25a091a795a1846d59"
 nostrip=yes
 
 do_configure() {
