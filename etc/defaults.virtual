@@ -21,8 +21,8 @@
 
 awk gawk
 emacs emacs
-java-environment openjdk8
-java-runtime openjdk8-jre
+java-environment openjdk17
+java-runtime openjdk17-jre
 libudev eudev-libudev
 lightdm-greeter base-chroot-cyclic-solver
 nodejs-runtime nodejs
